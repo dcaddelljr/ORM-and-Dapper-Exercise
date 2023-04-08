@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{4A13AE82-9528-4D2A-A29F-576B0BA922FB}|Default">
+  <MonoDevelop.Ide.ItemProperties.ORM-Dapper PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ORM-Dapper/Program.cs">
+    <Files>
+      <File FileName="ORM-Dapper/Program.cs" Line="64" Column="50" />
+      <File FileName="ORM-Dapper/Department.cs" Line="11" Column="1" />
+      <File FileName="ORM-Dapper/IDepartmentRepository.cs" Line="3" Column="1" />
+      <File FileName="ORM-Dapper/DapperDepartmentRepository.cs" Line="11" Column="68" />
+      <File FileName="ORM-Dapper/Product.cs" Line="6" Column="27" />
+      <File FileName="ORM-Dapper/IProductRepository.cs" Line="15" Column="1" />
+      <File FileName="ORM-Dapper/DapperProductRepository.cs" Line="31" Column="10" />
+      <File FileName="ORM-Dapper/bin/Debug/net6.0/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="ORM-Dapper" expanded="True">
+            <Node name="ORM-Dapper" expanded="True">
+              <Node name="bin" expanded="True">
+                <Node name="Debug" expanded="True">
+                  <Node name="net6.0" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

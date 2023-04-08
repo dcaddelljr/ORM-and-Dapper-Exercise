@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Desktop\\new\\ORM-Dapper\\ORM-Dapper\\ORM-Dapper.csproj": {}
+    "/Users/dwightcaddell/Desktop/Projects/ORM-and-Dapper-Exercise/ORM-Dapper/ORM-Dapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Desktop\\new\\ORM-Dapper\\ORM-Dapper\\ORM-Dapper.csproj": {
+    "/Users/dwightcaddell/Desktop/Projects/ORM-and-Dapper-Exercise/ORM-Dapper/ORM-Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\new\\ORM-Dapper\\ORM-Dapper\\ORM-Dapper.csproj",
+        "projectUniqueName": "/Users/dwightcaddell/Desktop/Projects/ORM-and-Dapper-Exercise/ORM-Dapper/ORM-Dapper.csproj",
         "projectName": "ORM-Dapper",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\new\\ORM-Dapper\\ORM-Dapper\\ORM-Dapper.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\new\\ORM-Dapper\\ORM-Dapper\\obj\\",
+        "projectPath": "/Users/dwightcaddell/Desktop/Projects/ORM-and-Dapper-Exercise/ORM-Dapper/ORM-Dapper.csproj",
+        "packagesPath": "/Users/dwightcaddell/.nuget/packages/",
+        "outputPath": "/Users/dwightcaddell/Desktop/Projects/ORM-and-Dapper-Exercise/ORM-Dapper/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/dwightcaddell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,13 +37,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
